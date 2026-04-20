@@ -115,6 +115,24 @@
           							</ol>
           						</td>
           					</tr>
+							<tr>
+          						<th>September</th>
+          						<td>
+          							<ol type="1">
+          								<li><p>Whistleblowing Procedure Awareness Talk</p></li>
+          							</ol>
+          						</td>
+          					</tr>
+							<tr>
+          						<th>October</th>
+          						<td>
+          							<ol type="1">
+          								<li><p>Integrity Awareness Briefing</p></li>
+										<li><p>In-house training : IFRS S2 Climate Risk Assessment Workshop</p></li>
+										<li><p>World Mental Health Day</p></li>
+          							</ol>
+          						</td>
+          					</tr>
           				</table>
           	</div>
           </div>

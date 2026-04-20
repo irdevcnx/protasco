@@ -25,6 +25,9 @@ body {
 				<span class="before-title-2"></span><img alt=""
 					src="img/icon-bull.png" class="img-icon-15 mr-4">Construction
 			</h3>
+			<p>Our experience in construction has equipped us with the capability to deliver
+buildings and roads that live up to our clients' expectations and become a
+valued part of the community we serve.</p>
 		</div>
 	</div>
 </section>

@@ -7,6 +7,10 @@
 .title-g{
     color:#007720;
 }
+#sc1{display:none;}
+.broading:hover #sc1{
+    display:block;
+}
 </style>
     <section id="page-title" data-bg-parallax="img/banner_sustainability.png"><div class="parallax-container img-loaded" data-bg="img/banner_corporate_profile.png" data-velocity="-.140" style="background: url(&quot;img/banner_corporate_profile.pngg&quot;);" data-ll-status="loaded"></div>
         <div class="bg-overlay"></div>
@@ -33,9 +37,9 @@
           			<div class="panel-group" id="accordion">
                   		<div class="panel panel-default">
                       		<div class="panel-heading">
-                  				<a data-toggle="collapse" href="#sc1"><h4 class="text-white">Preservation & Conservation</h4></a>
+                  			<h4 class="text-white">Preservation & Conservation</h4>
                   			</div>
-                  			<div id="sc1" class="panel-collapse collapse">
+                  			<div id="sc1" class="">
                   				<p class="mb-0 text-white">SG4: Partnering and developing an eco-efficiency community and environment</p>
                   			</div>
                   		</div>

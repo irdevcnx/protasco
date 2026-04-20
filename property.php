@@ -44,15 +44,17 @@ body {
 				<div class="d-flex row align-items-center">
 
 					<div class="accadax w100 pr-4 col-md-7 hddsss">
-						<p class="text-justify">Protasco Berhad aspires to become a
-							leading industry player in the property development sector,
-							bringing to the market innovative residential and commercial
-							concepts designed to deliver superior value.</p>
-						<p class="text-justify">Our Property & Infrastructure Division is
-							the main developer of De Centrum City, a 100-acre freehold land
-							located in south of Kuala Lumpur. De Centrum City is estimated to
-							have a gross development value (GDV) of almost RM10 billion over
-							a 15-year span.</p>
+						<p class="text-justify">Protasco Berhad aspires to become a leading industry player in the
+property development sector, bringing to the market innovative residential
+and commercial concepts designed to deliver superior value.</p>
+						<p class="text-justify">Our Property Development division is the main
+developer of De Centrum City, a 100-acre freehold
+land located in south of Kuala Lumpur. De Centrum
+City is estimated to have a gross development value
+(GDV) of almost RM10 billion over a 15-year span.</p>
+						<p class="text-justify">When completed, it will consist of high-rise
+apartments, office towers, SOHO units, a convention
+centre, hotels, office suites and retail lots.</p>
 						
 					</div>
 
@@ -76,12 +78,9 @@ body {
 		<div class="row">
 			<div class="col-md-12 heading-text heading-section text-left mb-0 " style="max-width: 800px;margin-left: auto;">
 				
-				<p class="text-justify">When completed, it will consist of
-							high-rise apartments, office towers, SOHO units, a convention
-							centre, hotels, office suites and retail lots. Other development
-							by this division include the Telipot Apartment complex in Kota
-							Bharu, Kelantan, comprising 584 apartment units on 1.85 acres of
-							land. The Telipot project has a GDV of RM158 million.</p>
+				<p class="text-justify">Other developments by this division include the Jade Hill Township in Tampin,
+Negeri Sembilan a 137 - acre development of landed housing and Sentrio
+Business Center in Pasir Gudang, Johor.</p>
 			</div>
 		</div>
 	</div>
@@ -98,12 +97,15 @@ body {
 					</div>
 					<div class="accadax w100  pl-4 col-md-7  hddsss">
 						
-						<p>The Group is also involved in the construction of two-storey shop
-    					offices in Pasir Gudang, Johor, with a GDV of approximately RM120
-    					million.</p>
-						<p >	We are continuously on the lookout for joint venture
-        					possibilities with both landowners and governments to develop their
-        					land holdings.</p>
+						<p>In 2018, the Property Development
+division teamed up with the International
+Radisson Hotel Group to manage the
+Park Inn by Radisson Putrajaya Hotel at
+South KL.</p>
+						<p>We are continuously on the lookout for
+joint venture possibilities with both
+landowners and governments to develop
+their land holdings.</p>
 					</div>
 
 				</div>

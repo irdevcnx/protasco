@@ -37,14 +37,19 @@ body {
 				<div class="d-flex row align-items-center">
 
 					<div class="accadax w100 pr-4 col-md-7  hddsss">
-						<p align="justify">Protasco's Trading & Manufacturing Division
-							specializes in trading and distribution of various products,
-							materials and equipment. They range from pavement maintenance
-							product to construction building materials, petroleum-based
-							products, highway safety products and equipment. Protasco Trading
-							Sdn Bhd, the company leading the business has manufacturing and
-							distributorship license awarded by reputable international brand
-							and product owners.</p>
+						<p align="justify">Specialising in the development,
+manufacturing, and distribution of a
+broad portfolio of products, our trading
+& manufacturing company operates
+across a wide spectrum — from
+pavement-maintenance materials and
+construction building supplies to
+petroleum-based products and
+highway-safety equipment. We hold
+manufacturing and distributorship
+licences granted by internationally
+recognised brand owners, ensuring
+both quality and compliance.</p>
 					</div>
 
 					<div class="col-md-5 hddsss ">
@@ -74,14 +79,47 @@ body {
 					<p class="yelloww m-0" style="width:100%; padding:20px;color:white"><b>Our Products:</b> </p>
 					<div class="accadax w100 popacl pl-5">
 						<ul >
-								<li>Pavement related materials</li>
-            					<li>Construction building materials</li>
-            					<li>Petroleum based products</li>
-            					<li>Highway safety products</li>
-            					<li>Machinery</li>
+            					<li><strong>1. Construction materials</strong>
+									<ul>
+										<li>Building material, Premix, bridge expansion joints, etc</li>
+										<li>Petroleum-based products</li>
+									</ul>
+								</li>
+            					<li><strong>2. Petroleum-based products</strong>
+									<ul>
+										<li>Bitumen, Bitumen Emulsion, Diesel, CRMB</li>
+									</ul>
+								</li>
+            					<li><strong>3. Road Maintenance Products & Equipment</strong>
+									<ul>
+										<li>Ultra Crete Cold Mix, Quarry Products, high‐friction surfacing
+										materials, etc</li>
+									</ul>
+								</li>
 						</ul>
 					</div>
 					</div >
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="d-flex row align-items-center">
+
+					<div class="accadax w100 pr-4 col-md-7  hddsss">
+						<h2 class="text-justify mb-0">Vision</h3>
+						<p align="justify">To be an innovative business entity, always seeking opportunities
+for growth, whilst providing quality products and value-added
+services to our customers and local communities.</p>
+					</div>
+
 				</div>
 
 			</div>

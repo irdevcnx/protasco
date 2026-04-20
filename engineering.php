@@ -46,17 +46,19 @@ padding-left:15px;
 				<div class="d-flex row align-items-center">
 
 					<div class="accadax w100 pr-4 col-md-6 hddsss">
-						<p class="text-justify">Ikram Works Sdn Bhd is the
-							Engineering & Consultancy Services division of Protasco. It
-							subscribes to the Group ethos of Excellence such that it has
-							become the &ldquo;Centre of Engineering Solutions&rdquo; to
-							serve both government and private sectors specialising in the
-							areas of:</p>
+						<p class="text-justify">The Engineering & Consultancy Services division of Protasco subscribes to the
+Group‘s ethos of Excellence such that it has become a Total Integrated
+Engineering Solutions Provider to serve both government and private sectors
+specialising in the areas of:</p>
 						<ul class="align-items-center pl-15">
+							<li>Certification of Product</li>
 							<li>Geotechnical & Geo-Environmental Engineering</li>
 							<li>Pavement, Highway & Transportation Engineering</li>
-							<li>Asset & Project Management Product & Personnel Certification</li>
-							<li>Structural & Material Engineering</li>
+							<li>Structural Assessment &
+							Forensic Engineering</li>
+							<li>Construction Engineering</li>
+							<li>Professional &
+							Technical Training</li>
 						</ul>
 					</div>
 
@@ -91,12 +93,11 @@ padding-left:15px;
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 heading-text heading-section text-left mb-0 " style="max-width: 800px;margin-left: auto;">
-				<p>Aided by the vast experience of more than 20 years, we have
-					established a strong foothold in delivering quality services by our
-					qualified and competent professionals. The adoption of engineering
-					best practices coupled with the state-of- the-art engineering
-					facilities has positioned us at the forefront of the engineering
-					and consultancy services provider within the ASEAN region.</p>
+				<p>Aided by the vast experience of more than 20 years, we have established a strong
+foothold in delivering quality services by qualified and competent professionals. The
+adoption of engineering best practices coupled with the state-of- the-art engineering
+facilities has positioned us at the forefront of the engineering and consultancy
+services provider within the ASEAN region.</p>
 			</div>
 		</div>
 	</div>
@@ -111,15 +112,13 @@ padding-left:15px;
 						<img alt="" src="img/Engineering & Consultancy Services1.png" class="img-fluid img-shadow mx-wd-500 cacpfsdkcscd">
 					</div>
 					<div class="accadax w100 pl-4 col-md-7 hddsss">
-						<p class="text-justify">Most of our subsidiaries are ISO9001:2015
-							certified and our Geotechnical, Material and Pavement
-							Laboratories are ISO17025 accredited. Conscious of the fact that
-							our clients value prompt and timely services, we have expanded
-							our offices nationwide. <br>Apart from the main office in Kajang
-							which serve as the headquarters and covers the Central Region, we
-							also cover the Southern Region (Johor Bahru), Northern Region
-							(Butterworth, Alor Star & Ipoh), Eastern Region (Kota Bharu &
-							Kuala Terengganu), Sabah (Kota Kinabalu) & Sarawak (Kuching).</p>
+						<p class="text-justify">Most of our subsidiaries are ISO 9001:2015 certified and our Geotechnical,
+Material and Pavement Laboratories are ISO 17025 accredited. Conscious of the
+fact that our clients value prompt and timely services, we have expanded our
+offices nationwide. Apart from the main office in Kajang which serves as the
+headquarters and covers the Central Region, we also cover the Southern Region
+(Johor Bahru), Northern Region (Butterworth, Alor Star & Ipoh), Eastern Region
+(Kota Bharu & Kuala Terengganu), Sabah (Kota Kinabalu) & Sarawak (Kuching).</p>
 					</div>
 
 				</div>

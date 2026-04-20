@@ -31,7 +31,7 @@ body {
 		<div class="heading-text heading-section text-left mb-0">
 			<h3 class="mb-0">
 				<span class="before-title-2"></span><img alt=""
-					src="img/icon-bull.png" class="img-icon-15 mr-4">Hospitality
+					src="img/icon-bull.png" class="img-icon-15 mr-4">Hotels & Hospitality
 					
 			</h3>
 		</div>
@@ -45,18 +45,19 @@ body {
 				<div class="d-flex row align-items-center">
 
 					<div class="col-md-7 hddsss accadax w100 pr-4">
-						<p class="text-justify">Park Inn by Radisson Putrajaya, Protasco&rsquo;s very own hospitality
-arm offers services and amenities in a contemporary setup. Since its opening in 2020, the hotel has hosted new and
-returning guests.<br/><br/>
+						<p class="text-justify">Park Inn by Radisson Putrajaya represents the hospitality division of our organisation, marking a
+strategic diversification from our traditional focus on engineering and infrastructure. This
+addition broadens our business portfolio and positions us within the growing hospitality sector.<br/><br/>
 
 
-Park Inn by Radisson Putrajaya hotel aspires to provide the best
-hospitality service to its customers.
+Situated near Malaysia’s administrative capital, Putrajaya, and within a rapidly developing
+section of Selangor and Wilayah Persekutuan Kuala Lumpur, the hotel offers convenient access
+for business and leisure travellers. It is very accessible to major government offices, government
+training centres, educational institutions, shopping centres and is also well-connected via the
+North–South Highway and is approximately 20 minutes from Kuala Lumpur International
+Airport, adding to its hospitality appeal.
 
 </p>
-						<p class="text-justify">It is strategically located near Malaysia&rsquo;s administrative center of
-Putrajaya and is connected to major highways, making accessibility
-to Kuala Lumpur City Center very efficient.</p>
 						
 					</div>
 
@@ -74,27 +75,110 @@ to Kuala Lumpur City Center very efficient.</p>
 <section class="background-caxscdz d-flex align-items-end" style="background: url(img/Park-Inn-1441-307.jpg) no-repeat center center;"></section>
 
 
-<section class=" dcscsdscg">
+<section class="py-5" style="background: #fff; position: relative; z-index: 2; padding-bottom: 40px !important;">
 	<div class="container">
-		<div class="col-md-12 heading-text heading-section text-left mb-0 " style="max-width: 800px;margin-left: auto;">
-				<p>
-					Park Inn by Radisson Putrajaya has received: <br>
-				
-				
-				<ul style="color:white;">
-					<li>The Excellence in 4 Star Hotel & Restaurant Services 2022 Award
-from the ASEAN Food & Travel Awards 2022;</li>
-					<li>A Gold Award for Business Hotel 2022 from the Malaysia Tourism
-Council; and</li>
-					<li>A Gold Award for Business Hotel 2022 from the Malaysia Tourism
-Council; and</li>
-				</ul>
-				</p>
+		<h2 class="text-bold mb-3" style="font-size: 2.2rem;">Accommodation</h2>
+		<p class="mb-5" style="max-width: 900px; font-size: 1.1rem; line-height: 1.7;">
+			The hotel comprises 220 contemporary guest rooms, designed to meet international
+			standards of comfort and functionality. Each room is equipped with essential
+			amenities to support both short-term and extended stays.
+		</p>
+		
+		<!-- Facilities and Services -->
+		<h3 class="mb-4" style="font-size: 1.8rem; border-bottom: 1px solid #ddd; padding-bottom: 10px;">Facilities and Services</h3>
+		<div class="row mb-4">
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #722f37; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Business & Meeting Facilities
+				</div>
 			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #722f37; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Meeting rooms with<br>audio-visual technology
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #c9a86c; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Conference spaces for corporate<br>events and training sessions
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #722f37; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					High-speed wired and wireless<br>internet throughout the property
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #722f37; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Business centre with printing and<br>administrative support
+				</div>
+			</div>
+		</div>
+		
+		<!-- Dining & Refreshments -->
+		<h3 class="mb-4" style="font-size: 1.8rem; border-bottom: 1px solid #ddd; padding-bottom: 10px;">Dining & Refreshments</h3>
+		<div class="row mb-5">
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #722f37; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					All-day dining restaurant serving<br>local and international cuisine
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #722f37; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Lobby lounge and café for<br>informal meetings
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #e6a946; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					In-room dining service
+				</div>
+			</div>
+		</div>
+		
+		<!-- Wellness & Recreation -->
+		<h3 class="mb-4" style="font-size: 1.8rem; border-bottom: 1px solid #ddd; padding-bottom: 10px;">Wellness & Recreation</h3>
+		<div class="row mb-5">
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #1a3a5c; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Fitness centre with<br>modern equipment
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #1a3a5c; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Outdoor swimming pool
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #1a3a5c; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Guest relaxation areas
+				</div>
+			</div>
+		</div>
+		
+		<!-- Connectivity & Accessibility -->
+		<h3 class="mb-4" style="font-size: 1.8rem; border-bottom: 1px solid #ddd; padding-bottom: 10px;">Connectivity & Accessibility</h3>
+		<div class="row mb-4">
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #6b6b4f; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Complimentary high-speed Wi-Fi<br>in rooms and public areas
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #6b6b4f; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Secure parking facilities
+				</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<div class="facility-box" style="background: #6b6b4f; color: #fff; padding: 20px; border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center; text-align: center;">
+					Shuttle services to key<br>destinations upon request
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
-<section class="bcklsc pb-0">
+<section class="bcklsc pb-0" style="top: 0 !important;">
 	<div class="container">
 		<div class="row ">
 

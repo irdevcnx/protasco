@@ -25,6 +25,9 @@ body {
 				<span class="before-title-2"></span><img alt=""
 					src="img/icon-bull.png" class="img-icon-15 mr-4">Construction
 			</h3>
+			<p class="text-justify">Our experience in construction has equipped us with the capability to deliver
+buildings and roads that live up to our clients’ expectations and become a
+valued part of the community we serve.</p>
 		</div>
 	</div>
 </section>
@@ -40,16 +43,18 @@ body {
 						</div>
 
 					<div class="col-md-6 hddsss" >
+						<h4 class="text-justify">Building a Greater Tomorrow</h4>
+
 						<p class="text-justify">
 							Protasco&rsquo;s construction activities have contributed to
 							infrastructure development and nation-building. Our expertise
 							lies in the design, construction, upgrading and rehabilitation of
-							roads, bridges and buildings services. <br>Protasco has
-							undertaken, completed and managed more than USD2 billion worth of
-							construction and project works.
+							roads, bridges and buildings services.
 						</p>
+
+						<p class="text-justify">Protasco has undertaken, completed and managed more than USD2 billion worth of
+							construction and project works.</p>
 						
-						<p>&ldquo;Our experience in construction has equipped us with the capability to deliver buildings and roads that live up to our clients&rsquo; expectations and become a valued part of the community we serve.&rdquo;</p>
 					
 					</div>
 				</div>
@@ -72,7 +77,7 @@ body {
 					<p class="bluee m-0" style="width:100%; padding:20px;color:white"><b>Road Construction:</b> </p>
 					<div class="accadax w100 popacl pl-5">
 						<ul >
-							<li>Sg Besi - Ulu Kelang Elevated Expressway, Selangor</li>
+							<li>Sg Besi – Ulu Kelang Elevated Expressway, Selangor</li>
 							<li>Desaru Coast Course, Desaru, Johor</li>
 							<li>Jalan Alor Setar - Kuala Nerang - Durian Burung, Kedah</li>
 							<li>Tarhuna to Ben Walid Road and Tripoli to Garian Road, Libya</li>
@@ -80,6 +85,7 @@ body {
 							<li>Utan Aji, Perlis to Changlun, Kedah</li>
 							<li>Muar - Melaka - Alor Gajah - Simpang Ampat Road, Melaka</li>
 							<li>Kapar - Sabak Bernam and Klang - Banting, Selangor</li>
+							<li>Upgrading of Jalan Persekutuan, Kulim, Kedah.</li>
 						</ul>
 					</div>
 					</div>
@@ -88,13 +94,10 @@ body {
 					<div class="accadax popacl w100 pl-5">
 						<ul >
 							<li>Asian Football Confederation Annex Building, Bukit Jalil</li>
-							<li>Serviced Apartments, Telipot, Kelantan</li>
 							<li>Jasin Hospital, Melaka</li>
 							<li>UDA Shoplots, Kuala Lumpur</li>
-							<li>Infrastructure University Kuala Lumpur (IUKL) Hostel,</li>
-							<li>South Kuala Lumpur</li>
+							<li>Infrastructure University Kuala Lumpur (IUKL), South Kuala Lumpur</li>
 							<li>Masjid Ikram, South Kuala Lumpur</li>
-							<li>PPAM, Larai Presint 6, Putrajaya</li>
 						</ul>
 					</div>
 					</div>

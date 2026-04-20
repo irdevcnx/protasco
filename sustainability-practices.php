@@ -73,7 +73,7 @@
                   			<p class="mb-4">Sustainability is at the heart of everything we do. We are dedicated to creating lasting value for our stakeholders while preserving the environment and enriching the communities we serve. Through innovation, responsible business practices, and a deep commitment to the United Nations Sustainable Development Goals (SDGs), we are shaping a future where economic growth, social responsibility, and environmental stewardship go hand-in-hand.
 We believe in building not just for today, but for generations to come-partnering with our people, our communities, and the planet to create a resilient, eco-efficient, and inclusive world. Our journey towards sustainability is driven by action, progress, and a vision of shared prosperity for all.
 </p> 
-              	
+              	<img alt="" src="img/SustainabilityStatement-Photo.png" class="w-100 mb-4">
               	  	<h3 style="color:#007720;font-weight: 400;">Stakeholder Engagement</h3>
                   			<p class="mb-4">At Protasco Berhad, we recognise that our success is deeply connected to the needs and expectations of our diverse stakeholders. We have identified key groups whose insights and priorities help shape our business approach:</p> 
        
@@ -392,7 +392,7 @@ We believe in building not just for today, but for generations to come-partnerin
                   		<div class="panel panel-default">
                       		<div class="panel-heading">
                   				<h3 class="hover-title"  style="color:#007720;font-weight: 400;">Identification of ESG Risks and Mitigation Strategies</h3>
-                  				<p class="hover-content mb-4">Our employees are our greatest asset and the driving force behind our success. We are dedicated to creating a supportive and inclusive workplace where every team member can thrive. Through ongoing professional development, recognition, and a commitment to work-life balance, we empower our employees to achieve their full potential.</p>
+                  				<p class="hover-content mb-4">Upon identifying our materiality issues, each Business Unit (BU) conducts comprehensive risk assessments and engages in stakeholder consultations to ensure all relevant ESG risks are identified. Our robust risk management framework is designed to effectively address and mitigate these risks. Each BU implements action plans that include targeted initiatives, policy adjustments, and operational changes to minimise the impact of these risks on our business operations.</p>
                   			</div>
                   		</div>
               		</div>

@@ -17,6 +17,11 @@
 .box-greeny h4 {
     color: #ffffff;
 }
+
+#sc1{display:none;}
+.broading:hover #sc1{
+    display:block;
+}
 ul{padding-left:30px;}
 </style>
     <section id="page-title" data-bg-parallax="img/banner_sustainability.png"><div class="parallax-container img-loaded" data-bg="img/banner_corporate_profile.png" data-velocity="-.140" style="background: url(&quot;img/banner_corporate_profile.pngg&quot;);" data-ll-status="loaded"></div>
@@ -44,7 +49,7 @@ ul{padding-left:30px;}
           			<div class="panel-group" id="accordion">
                   		<div class="panel panel-default">
                       		<div class="panel-heading">
-                  				<a data-toggle="collapse" href="#sc1"><h4 class="text-white">Road towards Net Zero GHG Emissions</h4></a>
+                  				<h4 class="text-white">Road towards Net Zero GHG Emissions</h4>
                   			</div>
                   			<div id="sc1" class="panel-collapse collapse">
                   				<p class="mb-0 text-white">Sustainability Goal: Partnering and developing an eco-efficiency community and environment</p>
@@ -61,12 +66,12 @@ ul{padding-left:30px;}
           			<li>50% reduction by 2030</li>
           			<li>75% reduction by 2040</li>
           		</ul>
-          		<p>We will regularly review and adjust our strategies to remain on track towards these goals.</p>
+          		<!-- <p>We will regularly review and adjust our strategies to remain on track towards these goals.</p>
           		<a href="net-zero-ghg-emissions-transition-plan.php">
           			<div class="box-greeny">
                 		<h4 class="mb-0">Net-Zero GHG Emissions Transition Plan (Outline).</h4>
                 	</div>
-          		</a>
+          		</a> -->
           		<p>To achieve this, we have developed a comprehensive roadmap based on four key strategies:</p> 
           		<ul>
           			<li>Energy Efficiency</li>

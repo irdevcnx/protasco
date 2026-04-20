@@ -49,7 +49,11 @@ body {
 	<div class="container-fluid bge5e5e5">
 		<div class="row">
 			<div class="col-md-6 p-0 zcasdc d-flex align-items-end justify-content-center">
-				<h3 class="text-center czxadf">ENHANCING ASSET VALUES</h3>
+				<h3 class="text-center czxadf">Driven by excellence,
+innovation, and
+responsibility.
+Backed by years
+of proven expertise.</h3>
 			</div>
 			
 			<div class="col-md-6">
@@ -64,17 +68,16 @@ body {
                 </section>
                 <div class="row">
                 <div class="col-md-12 p-4">
-               <p class="text-justify">For more than two decades, Protasco Berhad
-							has spearheaded the maintenance of roads in Malaysia. Protasco
-							Berhad&rsquo;s valuable experiences over the years have made it a
-							premier one stop solution provider for road maintenance in the
-							country.</p>
+               <p class="text-justify">Protasco Berhad has spearheaded road maintenance in Malaysia for more
+than two decades. Our invaluable experience over the years has established
+the Group as a premier one-stop solution provider for road maintenance in
+the country.</p>
 							
-							<p class="text-justify">Protasco Berhad has maintained more than
-							15,000km of Federal and State roads, as well as other roads in
-							Selangor, Pahang, Perak, Terengganu, Kelantan and Sibu, Mukah and
-							Bintulu in Sarawak through concessions and long term contracts by
-							its business units:</p>
+							<p class="text-justify">Protasco Berhad has maintained over 16,000 km of Federal and State
+roads, as well as roads in the states of Selangor, Pahang, Terengganu,
+Kelantan, Perak, and in the Sarawak divisions of Kuching, Samarahan,
+Serian, Sri Aman, Sarikei, Sibu, Bintulu, Miri, and Limbang, through
+concessions and long-term contracts managed by its business units:</p>
 				</div>
 				</div>
 			</div>
@@ -89,12 +92,10 @@ body {
 			<div class="col-md-6 bge5e5e5 d-flex align-items-center justify-content-center">
     						<ul class="sdkco">
 								<li><p>Roadcare (M) Sdn Bhd</p></li>
-								<li><p>HCM Engineering Sdn Bhd</p></li>
-								<li><p>Empayar Indera Sdn Bhd</p></li>
 								<li><p>DAL HCM Sdn Bhd</p></li>
+								<li><p>Empayar Indera Sdn Bhd</p></li>
+								<li><p>PG-HCM Sdn Bhd</p></li>
 								<li><p>HCM-Kijang Sdn Bhd</p></li>
-								<li><p>KPS-HCM Sdn Bhd</p></li>
-								<li><p>Permint Granite-HCM Sdn Bhd</p></li>
 							</ul>
 			</div>
 			<div class="col-md-6 p-0 zcasdcadc d-flex align-items-end justify-content-center">
@@ -120,14 +121,15 @@ body {
 					<p class="bluee m-0" style="width:100%; padding:20px;color:white">
         					<b>Routine Maintenance:</b></p>
 					<div class="accadax w100 popacl pl-5">
-					<p><strong>Works that are carried out on a cyclic and need-basis. It comprises:</strong></p>
+					<p><strong>Conducted on a cyclical and need-based schedule to
+					meet established standards, these works comprise:</strong></p>
         				<ul >
-        					<li>Pavement Maintenance</li>
-        					<li>Road Shoulder Maintenance</li>
+        					<li>Pavement</li>
+        					<li>Maintenance of Road Shoulders</li>
         					<li>Grass Cutting</li>
-        					<li>Road Furniture Cleaning</li>
-        					<li>Bridges and Culverts Cleaning</li>
-        					<li>Drainage Cleaning</li>
+        					<li>Maintenance of Road Furniture</li>
+        					<li>Maintenance of Bridges and Culverts</li>
+        					<li>Cleaning of Drains</li>
         					<li>Routine Inspection</li>
         				</ul>
         				
@@ -139,7 +141,30 @@ body {
 					<p class="yelloww m-0" style="width:100%; padding:20px;color:white">
         					<b>Periodic Maintenance</b></p>
 					<div class="accadax w100 popacl pl-5">
-        				<p>Works that are carried out either as scheduled or unscheduled pavement works. It includes the rehabilitation and repair of existing pavement as well as replacements of road furniture, drainage structures and culverts, slope and embankments, bridges and other similar road structures.</p>
+        				<p>Periodic maintenance is conducted less frequently
+						than routine maintenance</p>
+						<p>I. Periodic pavement works
+							<ul>
+								<li>Resurfacing road pavement</li>
+								<li>Sealing pavement surfaces and shoulders</li>
+								<li>Road widening</li>
+								<li>Upgrading road infrastructure</li>
+								<li>Road reconstruction</li>
+							</ul>
+						</p>
+						<p>II. Road furniture works
+							<ul>
+								<li>Repairing, reconstructing, or constructing new
+								drains and culverts</li>
+								<li>Upgrading drains and culverts in flood-prone areas</li>
+								<li>Repairing slopes, including shoulders, cut slopes,
+								and embankments</li>
+								<li>Repairing road furniture, including the replacement
+and installation of guardrails, delineator posts,
+signboards, road studs, line markings, and road
+kerbs</li>
+							</ul>
+						</p>
         				
 					</div>
 					</div>
@@ -151,7 +176,19 @@ body {
 					<p class="greenn m-0" style="width:100%; padding:20px;color:white">
         					<b>Emergency Works</b></p>
 					<div class="accadax w100 popacl pl-5">
-        				<p>In Emergency Works, rapid response are provided within an hour in various emergency situations by managing temporary traffic diversion and clearing of debris and material to make the road passable to users.</p>
+        				<p>Rapid response is provided during emergency situations by
+implementing traffic management and coordination to ensure the
+road remains passable for users.</p>
+						<ul>
+							<li>Flooding</li>
+							<li>Landslides</li>
+							<li>Embankment failure and road subsidence</li>
+							<li>Failure or collapse of bridges and related components</li>
+							<li>Collapse of culverts and drainage structures</li>
+							<li>Road closures due to fallen trees</li>
+							<li>Road closures caused by spills of chemicals, hazardous
+							materials, toxic substances, or flammable materials.</li>
+						</ul>
         				
 					</div>
 					</div>
@@ -283,5 +320,3 @@ body {
 
 
 <?php include 'footer.php';?>
-
-

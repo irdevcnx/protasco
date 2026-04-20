@@ -51,7 +51,7 @@ html, body {height:100%;}
     }
 </style>
 
-<iframe src="<?=$ir_link?>investor-relations/homepage.php" style="height: 100%; width: 100%; border: 0px;"></iframe>
+<iframe src="<?=$ir_link?>investor-relations/new-home.php" style="height: 100%; width: 100%; border: 0px;"></iframe>
 
 <script src="https://unpkg.com/gojs@2.3.3/release/go.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type="text/css">

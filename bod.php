@@ -210,7 +210,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 mb-2">
+			<!-- <div class="col-md-4 mb-2">
 				<div class="box d-flex w100">
 					<img alt=""
 						src="img/bod/Dato Sri Muz.png"
@@ -224,7 +224,7 @@
 							data-target="#Azian"><i class="icon-arrow-right-circle"></i></a>
 					</p>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="col-md-4 mb-2">
 				<div class="box d-flex w100">
@@ -394,57 +394,6 @@
 </div>
 
 <!-- Modal -->
-<div id="Azian" class="modal fade" role="dialog">
-	<div class="modal-dialog">
-		<!-- Modal content-->
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<h2 class="mb-0">Dato&rsquo; Su-Azian @ Muzaffar Syah Bin Abd
-					Rahman.</h2>
-				<p class="mb-0">Executive Director</p>
-			</div>
-			<div class="modal-body">
-				<p>
-					<strong>Term of Office</strong>
-				</p>
-				<ul style="list-style-type: none;">
-					<li>Director of Protasco Berhad since 16 December 2014</li>
-				</ul>
-				<p>
-					<strong>Education &amp; Qualification</strong>
-				</p>
-				<ul style="list-style-type: none;">
-					<li>Certificate in Business Management, Malay Chamber of Commerce
-						(BBMC), 1988.</li>
-				</ul>
-				<p>
-					<strong>Skills &amp; Experience</strong>
-				</p>
-				<p style="text-align: justify;">Dato&rsquo; Sri Muzaffar Syah is the
-					Managing Director of the Maintenance Division at Protasco Berhad,
-					where he leverages his extensive expertise in business development.</p>
-				<p style="text-align: justify;">Prior to joining Protasco Berhad, he
-					held the position of Chief Executive Officer at Molek Engineering
-					Sdn Bhd from 2001 to 2012. During this time, he spearheaded the
-					company&rsquo;s growth and success through strategic leadership and
-					innovative initiatives.</p>
-				<p style="text-align: justify;">Dato&rsquo; Sri Muzaffar Syah also served
-					as a director at GIA Consult Sdn Bhd from 2006 to 2012 and Papan
-					Agro Valley Sdn Bhd from 2007 to 2012, demonstrating his diverse
-					experience in diversed industries.</p>
-				<p>
-					<strong>Other Public Company Directorship &amp; Offices</strong>
-				</p>
-				<p>None</p>
-			</div>
-
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
 
 <!-- Modal -->
 <div id="Suhaimi" class="modal fade" role="dialog">

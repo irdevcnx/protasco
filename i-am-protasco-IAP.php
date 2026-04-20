@@ -74,7 +74,7 @@
     <section class="border-bottom-1px">
         <div class="container">
             <div class="heading-text heading-section text-left mb-0">
-                <h3 class="mb-0"><span class="before-title-2"></span><img alt="" src="img/icon-bull.png" class="img-icon-15 mr-4">I Am Protasco(IAP) 3.0:2024-2030</h3>
+                <h3 class="mb-0"><span class="before-title-2"></span><img alt="" src="img/icon-bull.png" class="img-icon-15 mr-4">I Am Protasco (IAP) 3.0:2024-2030</h3>
             </div>
         </div>
     </section>
@@ -173,7 +173,7 @@
           	
           	<div class="col-md-12">
           		
-          		<p class="mb-4"><a href="" style="text-decoration: underline;">Our IAP2.0 Workshop</a></p>
+          		<p class="mb-4">Our IAP2.0 Workshop</p>
           		<a href="https://protascoactive.com.my/launching-of-iap-3-0/" target="_blank">
           		<div class="box-greeny">
             		<h4 class="mb-0">IAP 3.0</h4>
@@ -190,24 +190,26 @@
           		<div class="broad2  img-shadow">
           			<div class="panel-group" id="accordion">
                   		<div class="panel panel-default">
-                      		<div class="panel-heading">
-                  				<h4>Human Capital Development</h4>
-                  				<p class="mb-0">A need to balance long-term financial stability (prosperity) with our non-financial aspects emphasising on people and planet through an ethical and integrity manner.</p>
-                  			</div>
+                      		<a href="human-capital-and-development.php" target="_parent">
+								<div class="panel-heading">
+									<h4>Human Capital Development</h4>
+									<p class="mb-0">A need to balance long-term financial stability (prosperity) with our non-financial aspects emphasising on people and planet through an ethical and integrity manner.</p>
+								</div>
+							</a>
                   		</div>
               		</div>
           		</div>
           	</div>
-          	
-          	
           	<div class="col-md-4 mb-4">
           		<div class="broad2 img-shadow">
           			<div class="panel-group" id="accordion">
                   		<div class="panel panel-default">
-                      		<div class="panel-heading">
-                  				<h4>Digitalisation</h4>
-                  				<p class="mb-0">We strive for Process and Service Improvement and Innovation, leveraging technology to enhance efficiency and deliver superior value to stakeholders.</p>
-                  			</div>
+                      		<a href="digitalisation.php" target="_parent">
+								<div class="panel-heading">
+									<h4>Digitalisation</h4>
+									<p class="mb-0">We strive for Process and Service Improvement and Innovation, leveraging technology to enhance efficiency and deliver superior value to stakeholders.</p>
+								</div>
+							</a>
                   		</div>
               		</div>
           		</div>
@@ -231,10 +233,12 @@
           		<div class="broad2 img-shadow">
           			<div class="panel-group" id="accordion">
                   		<div class="panel panel-default">
-                      		<div class="panel-heading">
-                  				<h4>Preservation & Conservation</h4>
-                  				<p class="mb-0">We are dedicated to partnering and Developing an eco-efficient community and environment, promoting conservation and sustainable practices across our operations.</p>
-                  			</div>
+                      		<a href="preservation-and-conservation.php" target="_parent">
+								<div class="panel-heading">
+									<h4>Preservation & Conservation</h4>
+									<p class="mb-0">We are dedicated to partnering and Developing an eco-efficient community and environment, promoting conservation and sustainable practices across our operations.</p>
+								</div>
+							</a>
                   		</div>
               		</div>
           		</div>
@@ -255,10 +259,16 @@
           	
           	
           		<div class="col-md-12">
-          			<p class="mb-4"><a href="" style="text-decoration: underline;">Our IAP3.0 Launching</a></p>
+          			<p class="mb-4">Our IAP3.0 Launching</p>
           			<p>With these strategic goals at the forefront, we will continue to create value for our stakeholders, nurture our workforce, and contribute to the well-being of our environment and communities.</p>
-          			
           		</div>
+
+
+				
+          		<div class="col-md-12">
+          			<p class="mb-4"><a href="sustainability-themes-goals.php" target="_blank" style="text-decoration: underline;">For Sustainability Themes & Goals</a></p>
+          		</div>
+          		
           		
           		
          </div> 	
