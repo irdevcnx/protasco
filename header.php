@@ -29,9 +29,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<?php include 'analytic.php';?>
-</head>
 
-<style>
+  <style>
 #dark .dark #header .header-inner .lines, .dark #header .header-inner .lines:before, .dark #header .header-inner .lines:after, .dark #header #header-wrap .lines, .dark #header #header-wrap .lines:before, .dark #header #header-wrap .lines:after, #header.dark .header-inner .lines, #header.dark .header-inner .lines:before, #header.dark .header-inner .lines:after, #header.dark #header-wrap .lines, #header.dark #header-wrap .lines:before, #header.dark #header-wrap .lines:after{
 background-color: darkblue;
 
@@ -44,7 +43,11 @@ background-color: darkblue;
     flex: 0 0 100%;
     max-width: 100%;
  }
+}
 </style>
+</head>
+
+
 <body>
 
 <div class="body-inner">
@@ -165,7 +168,7 @@ background-color: darkblue;
 									 </ul>
                                 </li>
                             	 <li>
-                                	<a href="<?=$co_link?>agm/2025/" target="_parent">AGM</a>
+                                	<a href="<?=$co_link?>agm/2026/" target="_parent">AGM</a>
                             	</li>
                             	 <li>
                                 	<a href="https://careers.protasco.com.my/" target="_blank">Careers</a>

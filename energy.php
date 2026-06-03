@@ -227,7 +227,7 @@ development.</p>
 <section class="pt-0 pb-0">
     <div class="container">
         <div class="">
-            <h3 class="mb-4 text-center">Service Category</h3>
+            <h3 class="mb-4 text-center">Services Offered</h3>
         </div>
         <div class="row">
             <div class="col-md-3 col-sm-6 mb-4">
@@ -301,7 +301,7 @@ development.</p>
         <div class="row">
             <div class="col-md-12 heading-text heading-section text-left mb-0 "  style="max-width: 1000px;margin-left: auto;">
                 
-                <p class="text-center">i2 Energy has worked with more than 250 commercial and industrial clients across Malaysia from
+                <p class="text-align">i2 Energy has worked with more than 250 commercial and industrial clients across Malaysia from
 manufacturing giants and logistics leaders to education and retail facilities. The following highlights some of its many successful installations that reflect its technical capability.</p>
                 <div class="row">
                     <div class="col-md-6">
@@ -336,6 +336,8 @@ manufacturing giants and logistics leaders to education and retail facilities. T
         </div>
     </div>
 </section>
+
+
 
 
 <section>
@@ -411,13 +413,13 @@ efficient large-scale solar installations.</p>
             <div class="col-md-6 d-flex align-items-center">
                 <i class="fas fa-globe me-2 text-success" style="margin-right:20px; width: 20px; text-align: center;"></i>
                 <a href="https://www.i2energy.my/" class="text-decoration-none text-success">
-                    https://www.i2energy.my/
+                    www.i2energy.my
                 </a>
             </div>
             <div class="col-md-6 d-flex align-items-center">
                 <i class="fab fa-linkedin me-2 text-success" style="margin-right:20px; font-size: 22px; width: 22px; text-align: center;"></i>
                 <a href="https://www.linkedin.com/company/i2-energy-sdn-bhd/mycompany/?viewAsMember=true" target="_blank" class="text-decoration-none text-success">
-				https://www.linkedin.com/company/i2-energy-sdn-bhd/mycompany/?viewAsMember=true
+				www.linkedin.com/company/i2-energy-sdn-bhd/mycompany
                 </a>
             </div>
         </div>
@@ -432,7 +434,7 @@ efficient large-scale solar installations.</p>
             <div class="col-md-6 d-flex align-items-center">
                 <i class="fab fa-facebook me-2 text-success" style="margin-right:20px; font-size: 22px; width: 22px; text-align: center;"></i>
                 <a href="https://www.facebook.com/i2energy.my" target="_blank" class="text-decoration-none text-success">
-				https://www.facebook.com/i2energy.my
+				www.facebook.com/i2energy.my
                 </a>
             </div>
         </div>
@@ -447,7 +449,7 @@ efficient large-scale solar installations.</p>
             <div class="col-md-6 d-flex align-items-center">
                 <i class="fab fa-instagram me-2 text-success" style="margin-right:20px; font-size: 22px; width: 22px; text-align: center;"></i>
                 <a href="https://www.instagram.com/i2energymy/" target="_blank" class="text-decoration-none text-success">
-				https://www.instagram.com/i2energymy/
+				www.instagram.com/i2energymy
                 </a>
             </div>
         </div>
@@ -462,7 +464,7 @@ efficient large-scale solar installations.</p>
             <div class="col-md-6 d-flex align-items-center">
                 <i class="fab fa-youtube me-2 text-success" style="margin-right:20px; font-size: 22px; width: 22px; text-align: center;"></i>
                 <a href="https://www.youtube.com/@i2energymy" target="_blank" class="text-decoration-none text-success">
-				https://www.youtube.com/@i2energymy
+				www.youtube.com/@i2energymy
                 </a>
             </div>
         </div>

@@ -163,7 +163,7 @@ services to our customers and local communities.</p>
 					<div class="d-flex align-items-center mb-4">
 						<img alt="" src="img/icon_website.png" class="img-icon-15 mr-4"> <a
 							class="m-0"  style="color:#777" href="http://www.protascotrading.com.my/"> <strong>
-								http://www.protascotrading.com.my/</strong>
+								www.protascotrading.com.my</strong>
 						</a>
 					</div>
 					<div class="d-flex align-items-center mb-4">

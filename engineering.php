@@ -160,7 +160,7 @@ headquarters and covers the Central Region, we also cover the Southern Region
 					<div class="d-flex align-items-center mb-4">
 						<img alt="" src="img/icon_website.png" class="img-icon-15 mr-4">
 						<p class="m-0">
-							<strong><a href="https://ikram.com.my/" target="_blank" style="color: #777;">http://www.ikram.com.my/</a></strong>
+							<strong><a href="https://ikram.com.my/" target="_blank" style="color: #777;">www.ikram.com.my</a></strong>
 						</p>
 					</div>
 				</div>

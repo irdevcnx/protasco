@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row">
             	<div class="col-md-12">
-            		<img alt="" src="img/corp.png" class="img-fluid w100">
+            		<img alt="" src="img/corpstructure-protasco.png" class="img-fluid w100">
             	</div>
             </div>
         </div>

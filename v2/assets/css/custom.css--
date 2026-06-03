@@ -1,0 +1,2679 @@
+footer {
+	background-color: #ffffff;
+	padding: 60px 0 20px 0;
+	font-family: Arial, sans-serif;
+	border-top: 1px solid #eee;
+}
+
+.footer-logo img {
+	max-width: 180px;
+	height: auto;
+}
+
+.footer-link {
+	color: #555;
+	text-decoration: none;
+	font-size: 0.95rem;
+	transition: color 0.2s ease;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.footer-link:hover {
+	color: #003366;
+	/* Corporate blue */
+	text-decoration: underline;
+}
+
+.connect-text {
+	font-weight: 700;
+	font-size: 0.85rem;
+	color: #444;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+/* Social Icons Box */
+.social-box {
+	background-color: #555;
+	color: white;
+	width: 35px;
+	height: 35px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	margin-left: 8px;
+	transition: background-color 0.3s ease;
+	text-decoration: none;
+}
+
+.social-box:hover {
+	background-color: #000;
+	color: white;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+	margin-top: 50px;
+	padding-top: 20px;
+	border-top: 1px solid #f1f1f1;
+	font-size: 0.8rem;
+	color: #777;
+}
+
+.bottom-link {
+	color: #777;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.bottom-link:hover {
+	color: #333;
+}
+
+.copyright-text {
+	text-align: right;
+}
+
+@media (max-width: 768px) {
+	.copyright-text {
+		text-align: left;
+		margin-top: 15px;
+	}
+
+	.footer-logo {
+		margin-bottom: 30px;
+	}
+}
+
+/* 1.0  index*/
+/* /////////////////////////////////////////////////////////////////////////////index area///////////////////////////////////////////////////////////////////////////// */
+
+/* HERO */
+.hero {
+	position: relative;
+	height: 600px;
+	background: url('../../img/banner-homepage.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.hero::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.hero-content {
+	position: relative;
+	z-index: 2;
+}
+
+.hero-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	max-width: 300px;
+	margin: auto;
+}
+
+.hero-text-box {
+	/* max-width: 420px; */
+}
+
+.btn-gold {
+	background: #AB7C39;
+	border: none;
+	padding: 10px 20px;
+	color: #fff;
+}
+
+.susbg {
+	background-image: url(../images/sus-bg.jpg);
+	border-radius: 0;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	background-blend-mode: multiply;
+	position: relative;
+}
+
+.susbg::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	height: 10rem;
+	width: 100%;
+	background: linear-gradient(to bottom, transparent, #e8e8ea);
+}
+
+.sust__section {
+	background: linear-gradient(to top, transparent, #e8e8ea);
+}
+
+.sust__banner {
+	background-image: url(../images/naturebg2.png);
+	border-radius: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.swiper {
+	width: 100%;
+	padding-top: 6rem;
+	padding-bottom: 8rem;
+
+
+}
+
+.mySwiper {
+	overflow: visible !important;
+}
+
+.mySwiper .swiper-wrapper {
+	overflow: visible !important;
+}
+
+.mySwiper .swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 180px;
+	height: 220px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	transition: transform 0.3s ease, z-index 0.3s ease;
+	cursor: pointer;
+}
+
+.mySwiper .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+	transition: scale 1.4s ease-in;
+}
+
+.mySwiper .swiper-slide .slide-content {
+	transition: transform 0.3s ease;
+}
+
+.mySwiper .swiper-slide:hover {
+	z-index: 9;
+}
+
+.mySwiper .swiper-slide.swiper-slide-active:hover {
+	transform: translateZ(100px) scale(1.4) !important;
+	z-index: 9999;
+}
+
+.mySwiper .swiper-pagination {
+	display: none;
+}
+
+.mySwiper .swiper-slide:hover .pos-info {
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
+}
+
+.mySwiper .swiper-slide:hover img {
+	scale: 1.12;
+}
+
+.pos-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.858), transparent);
+	padding: 10px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	opacity: 1;
+	transition: opacity 0.4s ease, transform 0.4s ease-in-out;
+	pointer-events: none;
+}
+
+
+.mySwiper .swiper-slide:hover img {
+	scale: 1.12;
+}
+
+.pos-info p {
+	font-size: 0.5vw;
+	line-height: 1.2;
+	margin-bottom: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.pos-info p.hdlni {
+	font-size: 0.8vw;
+	margin-bottom: 0.3rem;
+}
+
+.ctalited {
+	position: relative;
+	border-radius: 25px;
+	position: relative;
+	padding: 5px 20px;
+	font-size: 0.45vw;
+	background: linear-gradient(45deg, #ffffff, #fff6f3 95%);
+	color: #ba0000;
+	font-family: "Montserrat";
+	font-weight: 800;
+	width: fit-content;
+	display: block;
+	margin: auto;
+	margin-top: 0.7rem;
+	border: 2px solid #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ctalited:hover {
+	background: linear-gradient(45deg, red, rgb(157, 1, 1));
+	color: #fff;
+}
+
+.sbp4::after,
+.sbn4::after {
+	content: "";
+	/* remove default arrow */
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+}
+
+
+.sbp4,
+.sbn4 {
+	z-index: 55;
+}
+
+.sbp4::after {
+	background-image: url('../../img/icon/arrowprev.svg');
+}
+
+.sbn4::after {
+	background-image: url('../../img/icon/arrownext.svg');
+}
+
+.mySwiper::after {
+	content: "";
+	position: absolute;
+	top: -10px;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	background: linear-gradient(to left, transparent, #e6e7e8);
+	z-index: 4;
+	pointer-events: none;
+
+}
+
+.mySwiper::before {
+	content: "";
+	position: absolute;
+	top: -10px;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	background: linear-gradient(to right, transparent, #e6e7e8);
+	z-index: 4;
+	pointer-events: none;
+
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+	width: 35px;
+}
+
+
+.first-section {
+	position: relative;
+	background: url('../../img/bg1.png') no-repeat;
+	color: #fff;
+	min-height: 600px;
+	/* Pastikan ada ketinggian untuk melihat imej */
+	background-size: 100% 100%;
+	background-color: #fff;
+	/* Contoh warna hitam */
+	background-position: center;
+}
+
+.text-green {
+	color: #28784F
+}
+
+.text-purple {
+	color: #582A72
+}
+.text-gold {
+	color: #AB7C39
+}
+
+.second-section {
+	position: relative;
+	background: url('../../img/bg2.png') no-repeat;
+	color: #fff;
+	min-height: 600px;
+	/* Pastikan ada ketinggian untuk melihat imej */
+	background-size: 100% 100%;
+	background-color: #fff;
+	/* Contoh warna hitam */
+	background-position: center;
+}
+
+
+/* Latar belakang seksyen */
+.news-section {
+	background: #f8f9fa url('../../img/Rectangle433.png') no-repeat center center;
+	background-size: cover;
+	padding: 60px 0;
+}
+
+/* Rekabentuk Kad News */
+.news-card {
+	background-color: #1e1e1e;
+	/* Warna gelap kad */
+	color: white;
+	border-radius: 15px;
+	padding: 25px;
+	position: relative;
+	min-height: 280px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+/* Bentuk 'Cut-out' untuk butang Read More */
+.news-card::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 120px;
+	/* Lebar kawasan butang */
+	height: 50px;
+	background-color: #f8f9fa;
+	/* Mesti sama dengan warna background luar kad */
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.btn-readmore {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #28784F;
+	color: white !important;
+	padding: 14px 20px;
+	border-radius: 0 15px 0 15px;
+	font-size: 0.8rem;
+	text-decoration: none;
+	z-index: 2;
+}
+
+.news-date {
+	font-size: 0.85rem;
+	color: #bbb;
+	margin-bottom: 15px;
+}
+
+.news-title {
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	/* Hadkan tajuk 2 baris */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	color: white;
+}
+
+.news-desc {
+	font-size: 0.9rem;
+	color: #ddd;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	/* Hadkan description 4 baris */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+
+/* Butang Bulat Navigasi */
+.nav-circle-btn {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: none;
+	background-color: #28784F;
+	/* Hijau */
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+	transition: 0.3s;
+}
+
+.nav-circle-btn:hover {
+	background-color: #1b5e20;
+	transform: scale(1.1);
+}
+
+/* Dots Indikator */
+.dot {
+	height: 10px;
+	width: 10px;
+	background-color: #28784F;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 5px;
+	opacity: 0.5;
+}
+
+.dot.active {
+	width: 35px;
+	/* Panjangkan sikit dot yang aktif */
+	border-radius: 10px;
+	opacity: 1;
+	background: linear-gradient(to right, #28784F, #582A72);
+	/* Contoh warna gradient */
+}
+
+/* Butang View More */
+.btn-view-more {
+	background-color: #28784F;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+.btn-view-more:hover {
+	background-color: #1b5e20;
+	color: #fff;
+}
+
+/* Jarak antara kad */
+.slick-slide {
+	margin: 0 10px;
+}
+
+/* Custom Dots Styling */
+#slickDots ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	align-items: center;
+}
+
+#slickDots li {
+	margin: 0 5px;
+}
+
+#slickDots button {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	cursor: pointer;
+	color: transparent;
+	border: 0;
+	outline: none;
+	background: #2e7d32;
+	border-radius: 50%;
+	opacity: 0.5;
+	transition: all 0.3s ease;
+}
+
+/* Dot Aktif (Panjang & Gradient) */
+#slickDots li.slick-active button {
+	width: 35px;
+	border-radius: 10px;
+	opacity: 1;
+	background: linear-gradient(90deg, #2e7d32, #4b3f72);
+}
+
+
+.read-more {
+	background: var(--accent-color);
+	color: var(--contrast-color);
+	font-family: var(--heading-font);
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 10px 28px;
+	border-radius: 5px;
+	transition: 0.3s;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.read-more i {
+	font-size: 18px;
+	margin-left: 5px;
+	line-height: 0;
+	transition: 0.3s;
+}
+
+.read-more:hover {
+	background: color-mix(in srgb, var(--accent-color), transparent 20%);
+	color: white
+}
+
+.read-more:hover i {
+	transform: translate(5px, 0);
+	color: white
+}
+
+
+.custom-card {
+	position: relative;
+	border-radius: 20px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.custom-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Different sizes */
+/* .small-card {
+  height: 420px;
+}
+
+.big-card {
+  height: 520px;
+} */
+
+/* Overlay gradient */
+.overlay {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2), transparent);
+}
+
+/* Text */
+.card-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+}
+
+.card-content .tag {
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.card-content .title {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+/* Rounded look like screenshot */
+.custom-card {
+	border-radius: 24px;
+}
+
+.custom-card:hover img {
+	transform: scale(1.05);
+	transition: 0.4s ease;
+}
+
+@media (max-width: 768px) {
+
+	.big-card,
+	.small-card {
+		height: 350px;
+	}
+}
+
+.text-box {
+	background: rgba(40, 120, 79, 0.6);
+	padding: 15px 30px;
+	border-radius: 12px;
+	min-height: 150px;
+}
+
+/* Card Container */
+.social-card {
+	background-color: #fff;
+	color: white;
+	border-radius: 15px;
+	padding: 25px;
+	position: relative;
+	min-height: 280px;
+	border: none;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.social-card::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 151px;
+	height: 50px;
+	background-color: transparent;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Header with the Purple Button */
+.social-header {
+	display: flex;
+	justify-content: flex-end;
+	/* padding: 10px 15px; */
+	background: #ffffff;
+	/* border-bottom: 1px solid #eee; */
+}
+
+
+.btn-social {
+	background-color: #5d337a;
+	/* Purple color from your image */
+	color: white;
+	text-decoration: none;
+	padding: 6px 18px;
+	border-radius: 8px;
+	font-size: 0.85rem;
+	font-weight: 500;
+	transition: background 0.3s ease;
+}
+
+.btn-social:hover {
+	background-color: #4a2862;
+	color: #fff;
+}
+
+/* Embed Content Area */
+.social-content {
+	padding: 15px;
+	flex-grow: 1;
+	overflow-y: auto;
+	/* Allows scrolling inside the card */
+}
+
+/* Hide some default TikTok padding/border */
+.tiktok-embed {
+	margin: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.btn-readmore-purple {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #582A72;
+	color: white !important;
+	padding: 14px 20px;
+	border-radius: 0 15px 0 15px;
+	font-size: 0.8rem;
+	text-decoration: none;
+	z-index: 2;
+	min-width: 148px;
+}
+.mt-180-negative{margin-top:-180px;}
+
+/* /////////////////////////////////////////////////////////////////////////////index area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////agriventure area///////////////////////////////////////////////////////////////////////////// */
+
+
+.agriventure {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/agriventurebanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.agriventure::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.agriventure-content {
+	position: relative;
+	z-index: 2;
+}
+.agriventure-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+
+.mt-200-negative{margin-top:-280px;}
+.mt-250-negative{margin-top:-250px;}
+
+.custom-card {
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.card-top {
+    background: #FEBC0F; /* yellow */
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-bottom {
+    background: #28784F; /* green */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Optional: equal height row */
+.row.equal-height > [class*='col-'] {
+    display: flex;
+}
+.icon-mx{max-height:70px;max-width:71px}
+
+
+.custom-card {
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.common-section {
+	position: relative;
+	background: url('../../img/corporate/protascocommon.png') no-repeat;
+	color: #fff;
+	/* min-height: 600px; */
+	/* Pastikan ada ketinggian untuk melihat imej */
+	background-size: 100% 100%;
+	background-color: #fff;
+	/* Contoh warna hitam */
+	background-position: center;
+}
+.common-small-section {
+	position: relative;
+	background: url('../../img/corporate/smallbg.png') no-repeat;
+	color: #fff;
+	/* min-height: 600px; */
+	/* Pastikan ada ketinggian untuk melihat imej */
+	background-size: 100% 100%;
+	background-color: #fff;
+	/* Contoh warna hitam */
+	background-position: center;
+}
+
+.agrib1 {
+    background: url(../../img/corporate/Rectangle-103.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 254px;
+	display: flex;
+    align-items: center;
+}
+.green-bg{background:#28784F;}
+.border-radius-13{border-radius:13px;}
+
+
+/* /////////////////////////////////////////////////////////////////////////////index area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////agriventure area///////////////////////////////////////////////////////////////////////////// */
+
+.maintenance {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/maintenancebanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.maintenance::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.maintenance-content {
+	position: relative;
+	z-index: 2;
+}
+
+.maintenance-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+
+.mntb1 {
+	background: url(../../img/corporate/Group552.png) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* min-height: 450px; */
+}
+
+.blue-bg {
+	background: #1B8AC4;
+}
+
+.radius-top-13 {
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+.darkbox-card {
+	/* Replace with your image path */
+	background:url('../../img/corporate/Group544.png') no-repeat center center;
+	background-size: cover;
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	position: relative;
+	/* overflow: hidden; */
+	/* transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); */
+	/* animation: fadeInUp 0.8s ease-out; */
+	/* min-height: 520px; */
+}
+
+/* Hover Effect: Zoom and Glow */
+.darkbox-card:hover {
+	/* border-radius: 15px;
+	transform: scale(1.);
+	 overflow: hidden; */
+	/* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); */
+	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+		url('../../img/corporate/Group544.png') no-repeat center center;
+	background-size: cover;
+}
+
+.darkbox-body {
+	padding: 2.5rem;
+}
+
+/* The Top Label */
+.federal-label {
+	background-color: #28784F;
+	color: white;
+	padding: 8px 24px;
+	font-weight: 400;
+	display: inline-block;
+	border-bottom-right-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: padding-left 0.3s ease;
+}
+
+.darkbox-card:hover .federal-label {
+	padding-left: 35px;
+	/* Slight slide effect on hover */
+}
+
+.main-heading {
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	margin-top: 2rem;
+}
+
+.sub-heading {
+	font-weight: 700;
+	font-size: 1.4rem;
+	margin-top: 2rem;
+}
+
+.company-text {
+	font-weight: 500;
+	margin-bottom: 2px;
+	color: #efefef;
+}
+
+.address-text {
+	font-size: 0.9rem;
+	color: #bcbcbc;
+	max-width: 90%;
+}
+
+.contact-link {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size: 1.0rem;
+	margin-top: 8px;
+	transition: color 0.2s;
+}
+
+.contact-link:hover {
+	color: #4ade80;
+	/* Light green highlight */
+}
+
+.web-link {
+	color: #fff;
+	opacity: 0.8;
+	font-size: 1.1rem;
+	text-decoration: underline;
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////maintenance area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////construction area///////////////////////////////////////////////////////////////////////////// */
+
+.construction {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/constructionbanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.construction::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.construction-content {
+	position: relative;
+	z-index: 2;
+}
+
+.construction-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////construction area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////engineering area///////////////////////////////////////////////////////////////////////////// */
+
+
+
+.engineering {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/engineeringbanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.engineering::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.engineering-content {
+	position: relative;
+	z-index: 2;
+}
+
+.engineering-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+
+
+.pill-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* each item takes half row BUT doesn't stretch */
+.pill-wrapper .custom-pill {
+    background: #582A72;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+
+    /* KEY PART */
+    /* flex: 0 0 calc(50% - 6px); */
+    /* max-width: calc(50% - 6px); */
+    /* width: fit-content; */
+}
+
+/* center pills inside their half */
+.pill-wrapper .custom-pill {
+    display: inline-flex;
+    justify-content: center;
+}
+
+/* hover */
+.custom-pill:hover {
+    background: rgba(88, 42, 114, 0.9);;
+    transform: translateY(-2px);
+}
+.engb1{
+	background: url(../../img/corporate/Rectangle-92.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 254px;
+	display: flex;
+    align-items: center;
+}
+.text-shadow{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////engineering area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////property area///////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.property {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/propertybanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.property::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.property-content {
+	position: relative;
+	z-index: 2;
+}
+
+.property-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+
+.prob1{
+	background: url(../../img/corporate/Group-551.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 254px;
+	display: flex;
+    align-items: center;
+}
+
+#property .darkbox-card{min-height:378px}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////property area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////trading area///////////////////////////////////////////////////////////////////////////// */
+
+.trading {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/tradingbanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.trading::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.trading-content {
+	position: relative;
+	z-index: 2;
+}
+
+.trading-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+
+
+/* Darkbox Product Card */
+.product-card {
+	background-color: #582A72;
+	color: white;
+	border-radius: 15px;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+	border: none;
+	transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+	transform: translateX(10px);
+}
+
+.product-card h3 {
+	font-size: 1.0rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.product-card ul {
+	padding-left: 20px;
+	margin-bottom: 0;
+	font-size: 0.95rem;
+	opacity: 0.9;
+}
+
+.vision-text {
+	color: var(--text-gray);
+	line-height: 1.6;
+	font-size: 1.1rem;
+}
+
+/* Image Gallery Styling */
+.img-rounded {
+	border-radius: 20px;
+	width: 100%;
+	object-fit: cover;
+	transition: opacity 0.3s ease;
+}
+
+.img-main {
+	height: 350px;
+}
+
+.img-tall {
+	height: 300px;
+}
+
+.img-bottom {
+	height: 220px;
+}
+
+/* Animation class */
+.reveal {
+	opacity: 0;
+	transform: translateY(20px);
+	animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////trading area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////energy area///////////////////////////////////////////////////////////////////////////// */
+
+
+.energy {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/energybanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.energy::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.energy-content {
+	position: relative;
+	z-index: 2;
+}
+
+.energy-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+.green-box-with-icon {
+    background: #28784F;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.green-box-with-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+
+.energyb1{
+	background: url(../../img/corporate/Group521-1.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 254px;
+	display: flex;
+    align-items: center;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px 40px; */
+    border-radius: 10px;
+    color: #fff;
+    gap: 40px;
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+
+.item i {
+    font-size: 16px;
+    min-width: 20px;
+}
+
+/* hover effect */
+.item:hover {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+#energy .icon-mx{
+	max-width: 50px;
+}
+.bg-purple{
+	background:#582A72;
+}
+
+.box-p{
+    border-radius:10px;
+    padding:15px 30px;
+    background:#ffffff;
+    margin-top:20px;
+	min-height:135px;
+    height:100%;
+        gap: 1.5rem !important;
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////energy area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////hotelhospitality area///////////////////////////////////////////////////////////////////////////// */
+
+
+.hotelhospitality {
+	position: relative;
+	height: 700px;
+	background: url('../../img/corporate/hotelhospitalitybanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.hotelhospitality::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.hotelhospitality-content {
+	position: relative;
+	z-index: 2;
+}
+
+.hotelhospitality-left-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+}
+.category-title {
+	color: #28784F;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
+}
+
+/* The Darkbox Pill */
+.facility-pill {
+	background-color: #582A72;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 50px;
+	/* Fully rounded ends */
+	display: inline-block;
+	margin-bottom: 12px;
+	font-size: 0.95rem;
+	font-weight: 400;
+	width: fit-content;
+	max-width: 100%;
+	transition: all 0.3s ease;
+	cursor: default;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	opacity: 0;
+	/* For animation */
+	transform: translateX(-10px);
+	animation: slideIn 0.5s forwards;
+}
+
+.facility-pill:hover {
+	transform: scale(1.03) translateX(5px);
+	background-color: #4a2861;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Layout Helpers */
+.pill-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 3rem;
+}
+
+/* Staggering the animation for each pill */
+.facility-pill:nth-child(1) {
+	animation-delay: 0.1s;
+}
+
+.facility-pill:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+.facility-pill:nth-child(3) {
+	animation-delay: 0.3s;
+}
+
+.facility-pill:nth-child(4) {
+	animation-delay: 0.4s;
+}
+
+.facility-pill:nth-child(5) {
+	animation-delay: 0.5s;
+}
+
+.hospb1{
+	background: url(../../img/corporate/Group-550.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 254px;
+	display: flex;
+    align-items: center;
+
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////energy area///////////////////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////////////////////////////////////////////////hotelhospitality area///////////////////////////////////////////////////////////////////////////// */
+
+
+.cpf {
+	position: relative;
+	height: 400px;
+	background: url('../../img/corporate/corporateprofilebanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.cpf::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.cpf-center-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+	text-align:center
+}
+
+.about-title {
+	color: #AB7C39;
+	font-weight: 700;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.main-headline {
+	color: #28784F;
+	font-weight: 800;
+	line-height: 1.2;
+	margin-bottom: 1.5rem;
+}
+
+.about-text {
+	color: #582A72;
+	font-size: 0.95rem;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+/* Darkbox Card Styling */
+.darkbox-card-2 {
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+	border: none;
+	min-height: 120px;
+	display: flex;
+	align-items: center;
+	background-color: #000;
+}
+
+.darkbox-bg-2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.6;
+	transition: transform 0.6s ease;
+	z-index: 1;
+}
+
+.darkbox-card-2:hover .darkbox-bg-2 {
+	transform: scale(1.1);
+}
+
+.darkbox-2-content {
+	position: relative;
+	z-index: 2;
+	padding: 2rem 3rem;
+	color: white;
+	width: 100%;
+}
+
+/* Green Tabs */
+.status-tab {
+	    background-color: #28784F;
+    color: white;
+    padding: 8px 24px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index: 4;
+    width: 137px;
+}
+
+/* Mission List Styling */
+.mission-item {
+	margin-bottom: 8px;
+	font-size: 0.95rem;
+}
+
+.mission-key {
+	font-weight: 800;
+	margin-right: 5px;
+}
+
+.core-values-text {
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.city-img {
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+}
+.v1{
+	background-image: url('../../img/corporate/bq1.png');
+}
+.v2{
+	background-image: url('../../img/corporate/bq2.png');
+}
+.v3{
+	background-image: url('../../img/corporate/bq3.png');
+}
+
+/* /////////////////////////////////////////////////////////////////////////////hotelhospitality area///////////////////////////////////////////////////////////////////////////// */
+
+
+.cps {
+	position: relative;
+	height: 400px;
+	background: url('../../img/corporate/corporate-structure-banner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.cps::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.cps-center-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+	text-align:center
+}
+
+/* /////////////////////////////////////////////////////////////////////////////bod mgt area///////////////////////////////////////////////////////////////////////////// */
+
+
+.bod {
+	position: relative;
+	height: 400px;
+	background: url('../../img/corporate/bod-banner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.bod::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+.mgt {
+	position: relative;
+	height: 400px;
+	background: url('../../img/corporate/mgt-banner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.mgt::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+.bod-center-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+	text-align:center
+}
+
+.profile-card {
+	border-radius: 15px;
+	overflow: hidden;
+	border: none;
+	position: relative;
+	max-width: 347px;
+    margin: auto;
+	/* background: #000; */
+}
+
+.profile-img {
+	/* width: 100%;
+	height: 100%;
+	object-fit: cover; */
+	/* transition: transform 0.5s ease; */
+	/* opacity: 0.85; */
+	width:100%
+}
+
+
+
+/* The "Tabbed" effect for the Chairman */
+.featured-wrapper {
+	position: relative;
+	background: #fff;
+	padding-top: 20px;
+}
+
+.featured-card {
+	border-radius: 0 15px 15px 15px;
+	/* Rounded except top-left */
+	/* height: 450px; */
+}
+
+/* Top Left Tab */
+.featured-card::before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: 50%;
+	height: 20px;
+	background: #000;
+	border-radius: 15px 15px 0 0;
+}
+
+/* Green Overlay for bottom cards */
+.overlay-green {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+	background: linear-gradient(transparent, rgba(13, 54, 29, 0.95));
+	color: white;
+}
+
+.btn-view {
+	background-color: var(--brand-green);
+	color: white;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-size: 0.8rem;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+
+.btn-view:hover {
+	background-color: var(--brand-green)!important;
+	color: #fff;
+}
+
+.btn-view-white{
+	background-color:  white;
+	color:var(--brand-green);
+	border-radius: 5px;
+	padding: 15px 15px;
+	font-size: 0.8rem;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+.chairman-title {
+	color: var(--brand-green);
+	font-weight: 700;
+}
+
+.leader-name {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.leader-role {
+	font-size: 0.85rem;
+	opacity: 0.8;
+}
+.mc-widthpx{max-width:1000px;margin:auto;}
+.profile-card-mgt {
+	border-radius: 15px;
+	overflow: hidden;
+	border: none;
+	position: relative;
+	/* max-width: 347px; */
+    margin: auto;
+	/* background: #000; */
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////accreditions area///////////////////////////////////////////////////////////////////////////// */
+
+
+.accrd {
+	position: relative;
+	height: 400px;
+	background: url('../../img/corporate/accrdbanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.accrd::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.accrd-center-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+	text-align:center
+}
+
+
+/* The Darkbox Award Card */
+.award-card {
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+	/* background: #000; */
+	border: none;
+	height: 220px;
+	margin-bottom: 24px;
+	transition: transform 0.3s ease;
+}
+
+.award-card:hover {
+	transform: translateY(-5px);
+}
+
+/* Image handling */
+.award-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/corporate/awardbanner.png');
+	background-size: cover;
+	background-position: center;
+	/* opacity: 0.6; */
+	transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+.award-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 74px;
+    height: 50px;
+    background-color: #f8f9fa;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.award-card:hover .award-bg {
+	transform: scale(1.1);
+	/* opacity: 0.9; */
+}
+
+/* Year Badge */
+/* The Curved Year Badge */
+.year-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #28784F;
+    color: white !important;
+    padding: 14px 20px;
+    border-radius: 15px 0 15px 0;
+    font-size: 0.8rem;
+    text-decoration: none;
+    z-index: 2;
+}
+
+/* Creating the curve transition to the card body */
+.year-badge::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15px; /* Position it to the right of the badge */
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    /* This creates the inner curve (concave) effect */
+    border-top-left-radius: 12px;
+    box-shadow: -5px -5px 0 0 var(--award-green);
+}
+
+/* Optional: Add a little pulse animation on hover */
+.award-card:hover .year-badge {
+    animation: badgePulse 1s infinite;
+}
+
+@keyframes badgePulse {
+    0% { box-shadow: 0 0 0 0 rgba(45, 122, 77, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(45, 122, 77, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(45, 122, 77, 0); }
+}
+
+/* Content Overlay */
+.award-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	z-index: 2;
+	color: white;
+}
+
+.award-company {
+	font-weight: 700;
+	font-size: 0.9rem;
+	margin-bottom: 2px;
+}
+
+.award-desc {
+	font-size: 0.75rem;
+	line-height: 1.3;
+	opacity: 0.9;
+	margin-bottom: 0;
+}
+
+/* Filter Buttons */
+.filter-btn {
+	border: 1px solid var(--brand-green);
+	color: var(--brand-green);
+	background: transparent;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	padding: 5px 15px;
+	font-size: 0.85rem;
+	transition: all 0.3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+	background-color: var(--brand-green);
+	color: white;
+}
+
+.iso-card {
+	position: relative;
+	height: 180px;
+	border-radius: 20px;
+	overflow: hidden;
+	border: none;
+	margin-bottom: 24px;
+	cursor: pointer;
+	/* Initial state for scroll animation */
+	opacity: 0;
+	transform: translateY(20px);
+	transition: all 0.6s ease-out;
+}
+
+.iso-card.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* The Green Tint Overlay */
+.iso-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, var(--brand-green), rgba(23, 74, 44, 0));
+	z-index: 2;
+	transition: background 0.3s ease;
+}
+
+.iso-card:hover .iso-overlay {
+	background: linear-gradient(to right, rgba(23, 74, 44, 0.95), rgba(23, 74, 44, 0.7));
+}
+
+.iso-bg-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/corporate/Groupiso.png');
+	/* Replace with your medal image */
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	transition: transform 0.5s ease;
+}
+
+.iso-card:hover .iso-bg-img {
+	transform: scale(1.1);
+}
+
+.iso-content {
+	position: relative;
+	z-index: 3;
+	padding: 30px;
+	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.iso-name {
+	font-weight: 700;
+	font-size: 1.05rem;
+	margin-bottom: 5px;
+	line-height: 1.2;
+}
+
+.iso-number {
+	font-size: 0.85rem;
+	font-weight: 400;
+	opacity: 0.9;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////contact area///////////////////////////////////////////////////////////////////////////// */
+
+
+
+.contact {
+	position: relative;
+	height: 400px;
+	background: url('../../img/corporate/contactbanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.contact::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.contact-center-title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+	text-align:center
+}
+
+.contact-header {
+	color: #AB7C39;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+.office-title {
+	color: var(--brand-green);
+	font-weight: 700;
+	font-size: 1.1rem;
+	margin-top: 1.5rem;
+}
+
+.contact-detail {
+	color: #5e2d7a;
+	font-size: 0.95rem;
+	margin-bottom: 0.2rem;
+	text-decoration: none;
+	display: block;
+}
+
+/* The Dark Form Box */
+.form-container {
+	background-color: var(--dark-form-bg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../img/corporate/contactbg.png');
+	background-size: cover;
+	border-radius: 30px;
+	padding: 50px;
+	color: white;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.form-label-custom {
+	font-weight: 600;
+	font-size: 0.9rem;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.form-control-custom {
+	background-color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 12px 15px;
+	margin-bottom: 20px;
+	width: 100%;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover/Focus Animation */
+.form-control-custom:focus {
+	outline: none;
+	transform: translateY(-3px);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+textarea.form-control-custom {
+	min-height: 150px;
+}
+
+.btn-send {
+	background-color: var(--brand-green);
+	color: white;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 8px;
+	font-weight: 600;
+	float: right;
+	transition: all 0.3s ease;
+}
+
+.btn-send:hover {
+	background-color: #388e3c;
+	transform: scale(1.05);
+	color: white;
+}
+
+/* Captcha Placeholder styling */
+.captcha-box {
+	background-color: #d9d9d9;
+	height: 50px;
+	width: 200px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////contact area///////////////////////////////////////////////////////////////////////////// */
+
+
+
+.sust {
+	position: relative;
+	height: 442px;
+	background: url('../../img/corporate/sustainabilitybanner.png') center/cover no-repeat;
+	color: #fff;
+}
+
+.sust::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	/* background: rgba(0, 0, 0, 0.6); */
+}
+
+.sust--title {
+	font-size: clamp(24px, 5vw, 60px);
+	font-weight: 700;
+	margin: auto;
+	text-align:start
+}
+
+
+.sust-section {
+    background: #f8f9fa url(../../img/corporate/sus.png) no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+	min-height:460px;
+	display: flex;
+    align-items: center;
+}
+
+.sust-section .btn-send {
+	background-color: var(--brand-green);
+	color: white;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 8px;
+	font-weight: 600;
+	float: left;
+	transition: all 0.3s ease;
+}
+.sust-common-section {
+    position: relative;
+    /* We stack the gradient ON TOP of the image URL */
+    background: linear-gradient(
+        135deg, 
+        rgba(237, 255, 227, 0) 0%, 
+        rgba(237, 255, 227, 1) 100%
+    ), url('../../img/corporate/protascocommon.png') no-repeat;
+    
+    /* This allows the image texture to show through the gradient */
+    background-blend-mode: multiply; 
+    
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Changed to dark as white text won't read well on light green */
+    min-height: 600px;
+}
+
+.green-div{
+    background-color: var(--brand-green);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+	max-width:300px;
+}
+.cmx th {color:#ffffff;}
+.cmx td p , .cmx td ol{color:#000;}
+.cmx ol{padding-left:15px;}
+.cmx th{background:#28784F;}
+.cmx td{background: transparent;}
+.cmx tr{border-width: 0;border-style: none;}
+
+/* Two-Tone Policy Card */
+.policy-card {
+	background-color: white;
+	border: 2px solid var(--brand-green);
+	border-radius: 12px;
+	overflow: hidden;
+	height: 100%;
+	/* Ensures equal height in row */
+	display: flex;
+	flex-direction: column;
+	transition: all 0.3s ease;
+}
+
+.policy-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Top White Section */
+.policy-body {
+	padding: 25px;
+	flex-grow: 1;
+	/* Pushes the footer to the bottom */
+	display: flex;
+	align-items: center;
+}
+
+.policy-title {
+	color: var(--brand-green);
+	font-weight: 800;
+	font-size: 1.15rem;
+	margin: 0;
+	line-height: 1.3;
+}
+
+/* Bottom Purple Section */
+.policy-footer {
+	background-color: #582A72;
+	padding: 12px 20px;
+	text-align: right;
+}
+
+.btn-policy {
+	background-color: var(--brand-green);
+	color: white;
+	border: none;
+	padding: 5px 18px;
+	border-radius: 6px;
+	font-size: 0.85rem;
+	font-weight: 600;
+	text-decoration: none;
+	display: inline-block;
+	transition: background 0.3s;
+}
+
+.btn-policy:hover {
+	background-color: #1e5233;
+	color: white;
+}
+
+/* Image handling */
+.policy-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:#28784F;
+	transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+.policy-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 74px; */
+    height: 50px;
+    background-color: #f8f9fa;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+
+
+
+#suspoc .award-card {
+    position: relative;
+    width: fit-content; /* This makes the card only as wide as the 'Employees' badge */
+    min-width: 250px;    /* Optional: prevents the card from being TOO skinny */
+	height: unset;
+	min-height:180px;
+}
+
+/* 2. Your existing badge style */
+#suspoc .year-badge {
+    position: relative; /* Changed from absolute so it pushes the container width */
+    display: inline-block;
+    background-color: #28784F;
+    color: white !important;
+    padding: 14px 20px;
+    border-radius: 15px 0 15px 0;
+    font-size: 0.8rem;
+    z-index: 2;
+	width:50%;
+}
+
+/* 3. The background container */
+.policy-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Follows .award-card (which follows the badge) */
+    height: 100%;
+    z-index: 1;
+}
+
+/* 4. The specific piece you asked for (Width + 3px) */
+.policy-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(50% + 3px); /* Perfectly matches badge width + 3px */
+    height: 50px;
+    background-color: #f8f9fa;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+/* 5. Ensure description stays below the badge */
+#suspoc .award-content {
+    position: relative;
+    z-index: 3;
+    padding-top: 10px;
+}
+
+
+.esg-container {
+	border-radius: 8px;
+	overflow: hidden;
+	/* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); */
+	font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.esg-header {
+	background-color: #28784F;
+	color: white;
+	padding: 12px 0;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* Body Styling */
+.esg-body {
+	/* background-color: #E0FFEF; */
+	/* padding: 30px 0; */
+}
+
+.esg-column {
+	position: relative;
+	padding: 30px 40px;
+}
+
+.bgE0FFEF {
+	background-color: #E0FFEF;
+}
+
+.bgtransparent {
+	background-color: transparent;
+}
+/* Vertical dividers between columns */
+.esg-column:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 10%;
+	height: 80%;
+	width: 1px;
+	background-color: var(--esg-divider);
+}
+
+/* List Item Styling */
+.esg-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.esg-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 8px;
+	color: #333;
+	font-size: 0.95rem;
+	transition: all 0.2s ease;
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+
+
+
+.esg-number {
+	font-weight: 700;
+	margin-right: 10px;
+	min-width: 25px;
+}
+
+@media (max-width: 768px) {
+	.esg-column:not(:last-child)::after {
+		display: none;
+	}
+
+	.esg-column {
+		border-bottom: 1px solid #28784F;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+
+	.esg-header-label {
+		display: block;
+		background: #28784F;
+		color: white;
+		margin-bottom: 15px;
+		padding: 5px;
+	}
+}
+
+
+.esg-topic-card {
+	position: relative;
+	height: 140px;
+	border-radius: 15px;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+	background-color: #28784F;
+}
+
+/* The Background Image with Default Green Tint */
+.esg-topic-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/corporate/Group-522-1.png');
+	background-size: cover;
+	background-position: center;
+	opacity: 0.6;
+	transition: all 0.4s ease;
+	z-index: 1;
+}
+
+/* Purple Hover State */
+.esg-topic-card:hover .esg-topic-bg {
+	background-image: url('../../img/corporate/Group-522-2.png');
+	background-blend-mode: multiply;
+	opacity: 0.9;
+	transform: scale(1.1);
+}
+
+/* Content Centering */
+.esg-topic-content {
+	position: relative;
+	z-index: 2;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	color: white;
+}
+
+.esg-topic-title {
+	font-weight: 700;
+	font-size: 0.95rem;
+	margin: 0;
+	line-height: 1.2;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.btn-green {
+    padding: 15px;
+    background: #28784F;
+    color: #ffffff !important;
+    min-width: 135px;
+    text-align: center;
+	border-radius:200px;
+}
+
+/* Container styling for the ESG cards */
+.broad {
+	border: 1px solid #2d7a4d;
+	border-radius: 10px;
+	background-color: #fff;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out;
+	position: relative;
+}
+
+#iap .broad{
+	border: 2px solid #2d7a4d;
+	height:100%;
+}
+#iap .panel-heading h4{color:#28784F;}
+
+/* Initial state of the title section */
+.panel-heading {
+	padding: 25px;
+	background-color: #fff;
+	transition: background-color 0.4s ease;
+}
+
+/* Heading style */
+.hover-title {
+	margin: 0;
+	font-size: 1.25rem;
+	transition: color 0.4s ease;
+}
+
+/* Hidden content state (The Purple Area) */
+.hover-content {
+	background-color: #583073;
+	/* Protasco Purple */
+	color: #fff;
+	padding: 0 25px;
+	/* Horizontal padding only initially */
+	max-height: 0;
+	/* Hidden by default */
+	overflow: hidden;
+	opacity: 0;
+	margin: 0 !important;
+	transition: all 0.5s ease-in-out;
+}
+
+/* Hover Effects */
+.broad:hover {
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Content expansion on hover */
+.broad:hover .hover-content {
+	max-height: 500px;
+	/* Large enough to fit text */
+	padding: 25px;
+	opacity: 1;
+}
+
+/* Download Button Styling (Card 3) */
+.btn-download {
+	background-color: #2d7a4d;
+	color: white !important;
+	padding: 8px 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 600;
+	transition: background 0.3s;
+}
+
+.btn-download:hover {
+	background-color: #1e5233;
+}
+
+/* Shadow helper class */
+.img-shadow {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#iap .policy-body {
+	padding: 25px;
+	flex-grow: 1;
+	/* Pushes the footer to the bottom */
+	display: block;
+	align-items: center;
+}
+
+
+/* Rekabentuk Kad News */
+.news-2-card {
+	background-color: #ffffff;
+	/* Warna gelap kad */
+	border-radius: 18px;
+	padding: 25px;
+	position: relative;
+	min-height: 280px;
+	border: 2px solid #28784F;
+	margin-bottom: 20px;
+	
+}
+
+/* Bentuk 'Cut-out' untuk butang Read More */
+.news-2-card::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 155px;
+    height: 55px;
+    background-color: #f8f9fa;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid #28784F;
+}
+
+.btn-readmore-2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #28784F;
+	color: white !important;
+	padding: 14px 20px;
+	border-radius:  15px 0 15px 0;
+	font-size: 0.8rem;
+	text-decoration: none;
+	z-index: 2;
+	border: 2px solid #28784F;
+}
+
+.box-greeny {
+    background: #28784F;
+    padding: 10px 30px;
+    max-width: 377px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 200px;
+}
+.box-greeny h4 {
+    color: #ffffff;
+	font-size: 16px;
+}
+
+
+/* The Background Image with Default Green Tint */
+.digital-topic-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../img/corporate/Group-522-1.png');
+	background-size: cover;
+	background-position: center;
+	opacity: 0.6;
+	transition: all 0.4s ease;
+	z-index: 1;
+}
+
+/* Purple Hover State */
+.digital-topic-card:hover .esg-topic-bg {
+	background-image: url('../../img/corporate/Group-522-2.png');
+	background-blend-mode: multiply;
+	opacity: 0.9;
+	transform: scale(1.1);
+}

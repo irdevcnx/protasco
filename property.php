@@ -148,7 +148,7 @@ their land holdings.</p>
 					<div class="d-flex align-items-center mb-4">
 						<img alt="" src="img/icon_website.png" class="img-icon-15 mr-4">
 						<p class="m-0"><a href="http://www.decentrum.com.my/" target="_blank" style="color: #777;">
-							<strong> http://www.decentrum.com.my/</strong></a>
+							<strong> www.decentrum.com.my</strong></a>
 						</p>
 					</div>
 					<div class="d-flex align-items-center mb-4">
@@ -191,7 +191,7 @@ their land holdings.</p>
 					<div class="d-flex align-items-center mb-4">
 						<img alt="" src="img/icon_website.png" class="img-icon-15 mr-4">
 						<p class="m-0">
-							<strong><a href="https://protascodevelopment.com/" target="_blank" style="color: #777;"> https://protascodevelopment.com</a></strong>
+							<strong><a href="https://protascodevelopment.com/" target="_blank" style="color: #777;"> protascodevelopment.com</a></strong>
 						</p>
 					</div>
 

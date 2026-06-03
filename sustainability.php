@@ -104,7 +104,7 @@
         <div class="container">
             <div class="heading-text heading-section text-left mb-0 ">
             	<div class="mr-4  mr-4"><a class="mybutton wow bounceInUp center mr-4" style="visibility: visible; animation-name: bounceInUp;" href="docs/Protasco-Sustainability-Report.pdf" target="_blank">Click Here <img alt="" src="img/icon_cursor.png" class="img-icon-15 ml-4"></a></div>
-            	<div  class="mr-4 mb-0"><h3 class="color-black mb-0">To view our full report on Sustainability 2024.</h3></div>
+            	<div  class="mr-4 mb-0"><h3 class="color-black mb-0">To view our full report on Sustainability 2025.</h3></div>
             </div>
         </div>
     </section>

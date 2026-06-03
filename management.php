@@ -44,16 +44,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-4 mb-2">
-				<div class="box d-flex w100">
-					<!-- 						 <img alt="" src="img/bod/Dato' Tan Yee Boon.png" class="mx-wd-300 m-auto"> -->
-				</div>
-				<div class="nboczssffv img-shadow">
-					<h2 class="mb-0">Dato&rsquo; Sri Su-Azian @ Muzaffar Syah Bin Abd Rahman
-					</h2>
-					<p class="mb-0">Managing Director, </br>Maintenance Division</p>
-				</div>
-			</div>
+		
 
 			<div class="col-md-4 mb-2">
 				<div class="box d-flex w100">

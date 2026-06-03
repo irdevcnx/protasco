@@ -76,7 +76,16 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.map-container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+}
+.map-container iframe {
+    /* margin-left: -250px;  */
+    margin-top: -147px;
+}
 </style>
 <section id="page-title" data-bg-parallax="img/banner_Construction.png">
 	<div class="parallax-container img-loaded"
@@ -247,10 +256,10 @@ market demands
 					<div class="col-md-4 hddsss" >
             <h3 style="color:#D03028" class="mb-4">PROTASCO BERHAD</h3>
             <h5  style="color:#24346D" class="mb-0">Tenggara Food Industries Sdn Bhd</h5>
-					  <p class="text-justify mb-4" style="color:#24346D">No.11, Jalan Gangsa 3, Desa Perindustrian Kulai 2, 81000 kulai, Johor, Malaysia</P>
+					  <p class="text-justify mb-4" style="color:#24346D">No.11, Jalan Gangsa 3, Desa Perindustrian Kulai 2, 81000 Kulai, Johor, Malaysia</P>
           </div>
-          <div class="accadax w100 pr-4 col-md-8 hddsss text-center">
-					    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127619.89671655805!2d103.39112329726561!3d1.6709349000000204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da799839de88f5%3A0x9e5f9651c1d91c!2sTenggara%20food%20industries%20sdn%20bhd!5e0!3m2!1sen!2smy!4v1769667708522!5m2!1sen!2smy" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="accadax w100 pr-4 col-md-8 hddsss text-center map-container">
+					    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127619.89671655805!2d103.39112329726561!3d1.6709349000000204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da799839de88f5%3A0x9e5f9651c1d91c!2sTenggara%20food%20industries%20sdn%20bhd!5e0!3m2!1sen!2smy!4v1769667708522!5m2!1sen!2smy&iwloc=0" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 

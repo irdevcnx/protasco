@@ -1,0 +1,160 @@
+<?php include 'header.php'; ?>
+<main class="main">
+   <!-- Hero Section -->
+   <!-- HERO -->
+   <section class="sust d-flex align-items-center">
+      <div class="container agriventure-content">
+         <div class="row align-items-center">
+            <div class="col-md-12">
+               <div class="agriventure-text-box">
+                  <h6 class="fw-bold sust--title text-white">
+                     Sustainability
+                  </h6>
+                  <p>ESG-Related Policies</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <!-- About Section -->
+   <section class="sust-common-section">
+      <div class="container">
+        <div class="row g-5">
+            
+           <div class="col-lg-12">
+                <p>At Protasco Berhad, our policies serve as the foundation for our commitment to ethical conduct, sustainability, and responsible business practices. They not only guide our overall operations but are also integral to the planning and implementation processes within each of our Business Units (BUs). Every BU is required to embed these policies into their operational strategies, ensuring alignment with the highest standards in compliance, governance, and environmental stewardship. This unified approach helps drive consistent progress across the Group, promoting long-term sustainability and value creation for all stakeholders.</p>
+             
+                <h5 class="text-purple mb-4">Policies Related to Sustainability Below is a list of key policies that guide our actions and shape our approach to sustainability.</h5>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Anti-Corruption Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Code of Conduct for Contractors</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Cybersecurity Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">ESG Risk Management Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Human Rights Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Net-Zero GHG Emissions Transition Plan</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Non-Discrimination Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Safety & Health Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Supplier Code of Conduct</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Sustainability Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="policy-card">
+                    <div class="policy-body">
+                        <h4 class="policy-title">Whistle blowing Policy</h4>
+                    </div>
+                    <div class="policy-footer">
+                        <a href="#" class="btn-policy">View More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+   </section>
+</main>
+<?php include 'footer.php'; ?>

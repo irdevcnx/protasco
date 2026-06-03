@@ -153,7 +153,7 @@ valued part of the community we serve.</p>
 					<div class="d-flex align-items-center mb-4">
 						<img alt="" src="img/icon_website.png" class="img-icon-15 mr-4">
 						<p class="m-0">
-							<strong><a href="https://hcme.com.my/" target="_blank" style="color: #777;">http://www.hcme.com.my/</a></strong>
+							<strong><a href="https://hcme.com.my/" target="_blank" style="color: #777;">www.hcme.com.my</a></strong>
 						</p>
 					</div>
 					<div class="d-flex align-items-center mb-4">
